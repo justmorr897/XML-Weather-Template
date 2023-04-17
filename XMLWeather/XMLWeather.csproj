@@ -36,9 +36,13 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -90,6 +94,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,6 +107,135 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1e3f0a6a1825aa5cc1c1af78c56ecd8b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10714473_852306814789240_5671585915167617482_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a2c1ae99f6a3b7e40b04aea58c5856a5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a8656ab00fa8abfbee70005c7efeae2a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa6dd84e3e4e0a15964e111a4f0d9c6e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fbae913a82e58d2a40af1658510dad6d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NO8hx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_Left_Square-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-neumorphic-style-icon-illustration-of-arrow-icon-on-white-background-neumorphism-neumorphic-style-icon-vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\830-8304891_png-file-svg-carousel-button-left-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-scalable-graphics-computer-file-carousel-angle-text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-neumorphic-style-icon-illustration-of-arrow-icon-on-white-background-neumorphism-neumorphic-style-icon-vector-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\830-8304891_png-file-svg-carousel-button-left-right-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifying-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunderstorm-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raining-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Precipitation-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudySunny-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudyNight-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-thunder-lightning-thunderstorm-sky-nature-water-lightning-thunder-and-lightning-thumbnail %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-thunder-lightning-thunderstorm-sky-nature-water-lightning-thunder-and-lightning-thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-webp-to-jpg %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7d69881f5746960ebdd7d56f6f4adc6d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\366ac521ef36f7eb65be5c415312a11e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\433f9471669d1e00ab0c4d86b2f6517d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\048266622ce340805b8c37c88dc1a05e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a3b301e36a9c7ff2b74cac482c6bbaa7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudyNight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudySunny.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Precipitation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raining.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunderstorm.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
